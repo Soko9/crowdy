@@ -1,3 +1,4 @@
+import "package:crowdy/src/config/routes/router.dart";
 import "package:crowdy/src/config/themes/themes.dart";
 import "package:flutter/material.dart";
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: "Flutter Demo",
       debugShowCheckedModeBanner: false,
       theme: THEMES.lightTheme,
-      home: const MyHomePage(title: "Crowdy Demo App"),
+      onGenerateRoute: ROUTER.onGenerateRoute,
     );
   }
 }

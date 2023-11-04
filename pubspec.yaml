@@ -31,4 +31,4 @@ flutter:
       fonts:
         - asset: fonts/Hermit-Regular.otf
         - asset: fonts/Hermit-Bold.otf
-          weight: 700
+          weight: 800
